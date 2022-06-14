@@ -38,7 +38,7 @@
 .header-sx {
 
     height: 60px;
-    background-color: #E4DCD4
+    background-color: #EAEAEA
 }
 
 .nuovi-messaggi{
@@ -61,21 +61,19 @@
 
 
 /* RIGHT SIDE */
-.col-8 {
-    height: 600px;
-    
-}
-
-
 
 .header-dx {
     height: 60px;
-    background-color: #E4DCD4
+    background-color:#EAEAEA
 }
 
-.container-dx{
+
+.col-8 {
+    height: 600px;
     background-image: url(../img/mine.jpg);
+    
 }
+
 .col-6{
     height: 600px;
     background-color: bisque;
