@@ -30,9 +30,8 @@
 }
 /* LEFT SIDE */
 .col-4 {
-    min-height: 100%;
-    
-    border-right: 1px solid lightgray;
+
+    border: 1px solid lightgray;
 }
 
 .header-sx {
@@ -69,14 +68,17 @@
 
 
 .col-8 {
-    height: 600px;
+    
     background-image: url(../img/mine.jpg);
     
 }
 
-.col-6{
-    height: 600px;
-    background-color: bisque;
-    border: 1px solid black;
-    margin-top: 60px;
+.container-write-message{
+    height: 40px;
+    justify-content: flex-end;
+}
+
+.write-message{
+    width: 60%;
+    
 }
