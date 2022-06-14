@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bs-body-bg: rgb(119, 116, 116);
+    --bs-primary: #009688;
+    --bs-secondary: #EAEAEA;
+}
+
+.top-bg {
+    height: 100px;
+    background-color: var(--bs-primary);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+
+.main-container {
+    background-color: white;
+    height: calc(100vh - 32px);
+    margin-top: 16px;
+    margin-bottom: 16px;
+    position: relative;
+}
+/* LEFT SIDE */
+.col-4 {
+    min-height: 100%;
+    
+    border-right: 1px solid lightgray;
+}
+
+.header-sx {
+
+    height: 60px;
+    background-color: #E4DCD4
+}
+
+.nuovi-messaggi{
+    min-height: 60px;
+    background-color:#8EDAFC;
+}
+
+.input{
+    min-height: 30px;
+}
+
+.contatto{
+    min-height: 60px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+
+
+/* RIGHT SIDE */
+.col-8 {
+    height: 600px;
+    
+}
+
+
+
+.header-dx {
+    height: 60px;
+    background-color: #E4DCD4
+}
+
+.container-dx{
+    background-image: url(../img/mine.jpg);
+}
+.col-6{
+    height: 600px;
+    background-color: bisque;
+    border: 1px solid black;
+    margin-top: 60px;
+}
