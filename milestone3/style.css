@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bs-body-bg: white;
+    --bs-primary: #009688;
+    --bs-secondary: #EAEAEA;
+}
+
+.top-bg {
+    height: 100px;
+    background-color: var(--bs-primary);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+
+.main-container {
+    background-color: white;
+    height: calc(100vh - 32px);
+    margin-top: 16px;
+    margin-bottom: 16px;
+    position: relative;
+}
+/* LEFT SIDE */
+.col-4 {
+
+    border: 1px solid lightgray;
+}
+
+.header-sx {
+
+    height: 60px;
+    background-color: #EAEAEA
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.name-header-sx{
+    flex-grow: 1;
+}
+
+
+.icon-circle{
+    padding-right: 1rem;
+    justify-content: center;
+}
+
+.icon-comment{
+    padding-right: 1rem;
+}
+
+
+.nuovi-messaggi{
+    min-height: 60px;
+    background-color:#8EDAFC;
+}
+
+.input{
+    min-height: 30px;
+}
+
+.contatto{
+    min-height: 60px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+
+
+/* RIGHT SIDE */
+
+.header-dx {
+    height: 60px;
+    background-color:#EAEAEA
+}
+
+
+.col-8 {
+    
+    background-image: url(../img/mine.jpg);
+    
+}
+
+.container-write-message{
+    height: 40px;
+    justify-content: flex-end;
+}
+
+.write-message{
+    width: 60%;
+    
+}

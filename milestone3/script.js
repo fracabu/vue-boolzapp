@@ -201,12 +201,6 @@ const appVue = new Vue({
             }
         },
 
-
-
-        filteredUsers(){
-            return this.listaContatti.filter
-        },
-
     }
 });
 
