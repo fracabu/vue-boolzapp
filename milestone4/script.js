@@ -1,3 +1,5 @@
+//let accontatti[0]
+// activeUser.messages = [......]
 const contatti = [
     {
         name: "Michele",

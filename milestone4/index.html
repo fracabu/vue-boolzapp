@@ -52,9 +52,10 @@
 
                             <div class="col-8 p-0">
                                 <div class="header-dx w-100 d-flex m-0"></div>
-                                <div class="box-messaggi bg-secondary d-inline-block"
+                                <div class="box-messaggi bg-secondary\"
                                     v-for="message in activeUser.messages">
-                                    {{ message.message }}
+                                    <div>{{ message.message }}</div>
+                                    
                                 </div>
                             </div>
                             <div class="container-write-message d-flex p-0">
