@@ -184,7 +184,7 @@ const appVue = new Vue({
 
     // Conterrà una serie di funzioni
     methods: {
-        setActiveUser(contact){
+        setActiveUser(contact) {
             this.activeUser = contact;
 
         },
@@ -203,6 +203,13 @@ const appVue = new Vue({
 
         filteredUsers() {
             return this.listaContatti.filter
+        },
+
+
+        searchContact() {
+            if (this.listaContatti) {
+
+            }
         },
 
 
