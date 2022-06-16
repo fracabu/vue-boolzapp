@@ -162,6 +162,10 @@ const contatti = [
     },
 ];
 
+//VARIABILI DA CREARE PER LE FUNZIONI
+    
+
+    
 
 const appVue = new Vue({
     // selettore dell'elemento html dove avviare vue
@@ -170,15 +174,23 @@ const appVue = new Vue({
     // Conterrà tutti i dati necessari all'applicazione
     data: {
         
-    listaContatti:contatti
+    listaContatti:contatti,
 
+    contattoAttivo:0,
+    nuovoMessaggio:'',
+    messaggioOn: {
+        isActive: true,
+        hasError: false},
+    
+    cercaContatto:'',
 
 
     },
 
     // Conterrà una serie di funzioni
     methods: {
-        // funzioni che useremo nell'app
+        
+       
     }
 });
 
