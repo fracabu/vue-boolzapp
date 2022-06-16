@@ -5,7 +5,7 @@
 }
 
 :root {
-    --bs-body-bg: rgb(119, 116, 116);
+    --bs-body-bg: white;
     --bs-primary: #009688;
     --bs-secondary: #EAEAEA;
 }

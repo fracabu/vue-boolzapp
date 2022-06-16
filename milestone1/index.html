@@ -39,10 +39,11 @@
                             <div class="input">
                                 <input type="text" placeholder="cerca o inizia una nuova chat" class="w-100">
                             </div>
-                            <div class="contatti-container py-3 h-100 flex-grow-1" v-for = "contatti in listaContatti">
-                                
-                                <!-- <img :src="`../img/avatar${contact.avatar}.jpg`" alt="" style="width : 40px; height: 40px"> -->
+                            <div class="contatti-container py-3 h-100 " 
+                                v-for = "contatti in listaContatti">
                                 {{contatti.name}}
+                                <!-- <img :src="`../img/avatar${contact.avatar}.jpg`" alt="" style="width : 40px; height: 40px"> -->
+                               
                             
                                 
                                 <div class="contatto"></div>
