@@ -162,7 +162,7 @@ const contatti = [
     },
 ];
 
-//VARIABILI DA CREARE PER LE FUNZIONI
+
 
 
 
