@@ -40,25 +40,25 @@
                                 <div class="input">
                                     <input type="text" placeholder="cerca o inizia una nuova chat" class="w-100">
                                 </div>
-                                <div class="contatti-container py-3" 
-                                    v-for="contact in listaContatti"
+                                <div class="contatti-container py-3" v-for="contact in listaContatti"
+                                    :class="activeUser && activeUser.avatar === contact.avatar ? 'active' : ''"
                                     @click="setActiveUser(contact)">
                                     <img :src="`../img/avatar${contact.avatar}.jpg`" alt=""
                                         style="width : 40px; height: 40px" class="rounded-circle">
                                     {{ contact.name }}
                                 </div>
                             </div>
-
-
-
                             <!-- right side -->
 
                             <div class="col-8 p-0">
                                 <div class="header-dx w-100 d-flex m-0"></div>
-                                    <div class="box-messaggi bg-secondary d-inline-block" v-for ="message in activeUser.messages">{{message.message}}</div>
+                                <div class="box-messaggi bg-secondary d-inline-block"
+                                    v-for="message in activeUser.messages">
+                                    {{ message.message }}
+                                </div>
                             </div>
                             <div class="container-write-message d-flex p-0">
-                                
+
                                 <div class="icon-footer-left d-flex">
                                     <i class="far fa-smile"></i>
                                 </div>
