@@ -206,6 +206,11 @@ const appVue = new Vue({
         },
 
 
+        searchContact(){
+            this.listaContatti
+
+        }
+
     }
 });
 
