@@ -163,9 +163,9 @@ const contatti = [
 ];
 
 //VARIABILI DA CREARE PER LE FUNZIONI
-    
 
-    
+
+
 
 const appVue = new Vue({
     // selettore dell'elemento html dove avviare vue
@@ -173,24 +173,34 @@ const appVue = new Vue({
 
     // Conterrà tutti i dati necessari all'applicazione
     data: {
-        
-    listaContatti:contatti,
 
-    contattoAttivo:0,
-    nuovoMessaggio:'',
-    messaggioOn: {
-        isActive: true,
-        hasError: false},
-    
-    cercaContatto:'',
+        listaContatti: contatti,
+        currentIndex: 0,
+        newMessage: '',
+        activeUser: contatti[0],
 
 
     },
 
     // Conterrà una serie di funzioni
     methods: {
-        
-       
+        setActiveUser(contact){
+            this.activeUser = contact;
+
+        },
+
+
+
+        addMessage() {
+            if (this.newMessage) {
+                this.listaContatti[this.currentIndex].messages.push({
+                    message: this.newMessage,
+                    status: "sent",
+                });
+                this.newMessage = "";
+            }
+        },
+
     }
 });
 
